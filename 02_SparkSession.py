@@ -8,6 +8,10 @@ findspark.init()
 # Importa la clase SparkSession, que es la puerta de entrada a todas las funcionalidades de Spark SQL.
 from pyspark.sql import SparkSession
 
+"""Detiene cualquier sesión activa de Spark que pueda estar en ejecución en el entorno.
+Esto es útil para evitar conflictos si previamente ya se había creado una sesión."""
+spark.stop()
+
 """ Crea una nueva sesión de Spark o recupera una existente con SparkSession.builder.getOrCreate()
 - master("local[*]") indica que se usen todos los núcleos disponibles del procesador local.
 - appName("Práctica PySpark") asigna un nombre identificativo a la aplicación Spark."""
