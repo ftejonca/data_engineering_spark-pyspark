@@ -213,3 +213,4 @@ df_muestra = df.sample(withReplacement=True, fraction=0.8, seed=1234)
 
 # Divide el DataFrame original en dos subconjuntos (80% entrenamiento, 20% test)
 train, test = df.randomSplit([0.8, 0.2], seed=1234)
+
