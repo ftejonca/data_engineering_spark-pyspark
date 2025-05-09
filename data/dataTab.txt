@@ -1,0 +1,4 @@
+pais|edad|fecha|color
+MX|23|2021-02-21|rojo
+CA|56|2021-06-10|azul
+US|32|2020-06-02|verde

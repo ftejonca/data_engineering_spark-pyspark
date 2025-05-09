@@ -1,0 +1,4 @@
+Estamos en el curso de pyspark
+En este capítulo estamos estudiando el API SQL de Saprk
+En esta sección estamos creado dataframes a partir de fuentes de datos,
+y en este ejemplo creamos un dataframe a partir de un texto plano
